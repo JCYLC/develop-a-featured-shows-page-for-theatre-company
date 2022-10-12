@@ -1,0 +1,130 @@
+body {
+    margin: 0px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    top: 0;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.navbar-brand {
+    margin: 30px;
+    font-size: x-large;
+}
+
+ul {
+    width: 125%;
+    padding: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.nav-item{
+    width: 100%; 
+}
+
+a {
+    text-decoration: none;
+    color: white; 
+ }
+ 
+ a:hover {
+     color: hotpink
+ }
+
+ .background{
+    width: 100%;
+    height: 65%;
+    z-index: -1;
+    margin-top: 0px;
+ }
+
+ .showfeats {
+    margin-top: -200px;
+    z-index: 1 ;
+    height: 1em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 12em;
+    text-shadow: -1px 1px 2px rgb(0,0,0),
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+                font-family: 'Roboto', sans-serif;
+
+}
+
+.infoboxcontainer {
+    padding-right: 5px;
+    border-bottom: 3px solid grey;
+    object-fit: cover;
+    display: flex;
+    justify-content:space-between;
+}
+
+.date {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 0;
+}
+
+
+.middlebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rightbox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+.datebar {
+    font-size: larger;
+    background-color: lightgray;
+    border: 1px darkgray;
+    border-radius: 2px;
+}
+
+
+button {
+    padding: 10px;
+    background-color: rgb(226, 174, 3);
+}
+
+.bottom {
+    margin-top: 10px;
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+    padding-top: 50px;
+}
+
+.mapimg {
+    width: 250px;
+}
+
+.map {
+    width: 250px;
+}
+
+.foothead {
+    font-size:xx-large;
+} 
